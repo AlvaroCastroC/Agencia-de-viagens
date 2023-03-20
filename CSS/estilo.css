@@ -1,0 +1,890 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #80808029;
+}
+
+.topo img{
+    width: 32px;
+    height: 32px;
+}
+
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.limite-conteudo{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo p{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+.conteudo-formulario{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.background{
+    background-image: url('../imagens/bahia.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 740px;
+    padding: 40px 0;
+    margin-bottom: 80px;
+}
+
+.conteudo-formulario .cabecalho-formulario{
+    background-color: #5d15d1;
+    height: 32px;
+}
+
+.conteudo-formulario .cabecalho-formulario div{
+    padding: 5px; 
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.cabecalho-formulario img{
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+
+.cabecalho-formulario h4{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.formulario{
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+
+.formulario h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+form div{
+    display: block;
+}
+
+.formulario label{
+    font-size: 16px; 
+}
+
+.formulario .dados input{
+    height: 32px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.formulario .selecao{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formulario .selecao div{
+    width: calc(100% / 2 - 5px);
+}
+
+.formulario .selecao input, select{
+    height: 28px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.formulario .selecao-radio{
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .selecao-radio .radio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 200px;
+    height: calc(20px);
+}
+
+.formulario .selecao-radio .radio div{
+    width: calc((100% - 10px) / 2);
+}
+
+.selecao-radio .selecao-checkbox, h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.formulario .selecao-checkbox{
+    margin: 5px 0;
+    display: block;
+}
+
+.formulario .selecao-checkbox .checkbox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%; 
+}
+
+.checkbox div{
+    width: 100px;
+}
+
+button{
+    margin-top: 20px; 
+    border-radius: 5px;
+    color: white;
+    background-color: #5d15d1;
+    height: 25px;
+    width: 150px;
+}
+
+section{
+    width: 90%;
+    margin: 60px auto;
+}
+.titulo{
+    width: 100%;
+}
+
+.titulo h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.titulo p{
+    font-size: 18px;
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+span{
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+.enquadro-imagem{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.enquadro-imagem .imagem-principal{
+    width: calc(50% - 3px);
+    max-height: 500px;
+    
+}
+
+.imagem-principal div{
+    width: calc(100% - 3px);
+    height: 100%;
+    position: relative;
+    box-shadow: 3px 3px 10px;
+}
+
+
+.imagem-principal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagem-principal p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+
+.imagem-secundaria{
+    width: calc(50% - 5px);
+    max-height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-secundaria div{
+    width: calc(50% - 10px);
+    height:calc(50% - 5px);
+    position: relative;
+    box-shadow: 3px 3px 10px;
+}
+
+.imagem-secundaria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagem-secundaria div p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+/*area dos cards*/
+
+.area-lazer{
+    height: 90%;
+}
+
+.enquadro-card{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.enquadro-card .card{
+    
+    background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    width: calc(50% - 10px);
+    box-shadow: 3px 3px 15px;
+    border-radius: 5px;
+
+}
+
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descricao{
+    width: 100%;
+    line-height: 20px;
+    flex-grow: 1;
+    
+}
+
+.card h5{
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.card p{
+    padding: 5px 10px;
+    color: grey;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+footer{
+    width: 100%;
+    height: 15%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+}
+
+.rodape{
+    width: 90%;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.rodape div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.rodape div h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.rodape div span{
+    display: flex;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.email::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url("../imagens/email.png");
+    
+}
+
+.localidade::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url("../imagens/local.png");
+    
+}
+
+.telefone::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url("../imagens/telefone.png");
+    
+}
+
+.facebook::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url("../imagens/fb.png");
+    
+}
+
+.instagram::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url("../imagens/ig.png");
+    
+}
+
+.twiter::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-size: cover;
+    background-image: url("../imagens/tt.png");
+    
+}
+
+/* inicio da responsividade mobile */
+
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .background{
+        height: 900px;
+    }
+    header{
+        height: 35px;
+    }
+
+    .topo img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .topo p {
+        font-size: 16px;
+    }
+
+    /* topo */
+
+    .background{
+        margin-bottom: 0;
+    }
+
+    .formulario .selecao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario .selecao div{
+        width: 100%;
+    }
+
+    .formulario .selecao-radio .radio div{
+        width: 150px;
+    }
+
+    .formulario .selecao-checkbox .checkbox{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .checkbox div{
+        width: 150px;
+        margin-bottom: 5px;
+    }
+
+    button{
+        height: 40px;
+        width: 100%;
+    }
+
+    /* fim formulario */
+
+    section{
+        width: 100%;
+        margin: 30px auto;
+        padding: 30px 25px 20px 25px;
+    }
+
+    .limite-conteudo{
+        max-width: 540px;
+    }
+    
+    .titulo h3{
+        font-size: 16px;
+    }
+
+    .titulo p{
+        font-size: 14px;
+    }
+
+    .enquadro-imagem{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+        height: 1300px ;
+    }
+
+    .enquadro-imagem .imagem-principal{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imagem-principal div{
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .imagem-principal div img{
+        object-position: center 25%;
+    }
+
+    .imagem-principal p{
+        font-size: 14px;
+    }
+
+    .imagem-secundaria {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    .imagem-secundaria div{
+        width: 100%;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .imagem-secundaria div p{
+        font-size: 14px;
+    }
+
+    .enquadro-card{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .enquadro-card .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .enquadro-card .card h5{
+        font-size: 16px;
+    }
+
+    .enquadro-card .card p{
+        font-size: 14px;
+    }
+
+
+    /* inicio rodape */
+    footer{
+        width: 100%;
+    }
+
+    .rodape{
+        width: 90%;
+    }
+
+
+    .rodape div h3{
+        font-size: 11px;
+    }
+    
+    .rodape div span{
+        display: flex;
+        font-size: 8px;
+    }
+
+    .email::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .localidade::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .telefone::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .facebook::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .instagram::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .twiter::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 768px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .background{
+        height: 900px;
+    }
+    
+    header{
+        height: 40px;
+    }
+
+    .topo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .topo p {
+        font-size: 20px;
+    }
+
+    /* topo */
+
+    .background{
+        margin-bottom: 0;
+    }
+
+    .formulario .selecao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario .selecao div{
+        width: 100%;
+    }
+
+    .formulario .selecao-checkbox .checkbox{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .checkbox div{
+        margin-bottom: 5px;
+    }
+
+    button{
+        height: 40px;
+        width: 100%;
+    }
+
+    /* fim formulario */
+
+    section{
+        width: 100%;
+        margin: 30px auto;
+        padding: 30px 25px 20px 25px;
+    }
+
+    .limite-conteudo{
+        max-width: 768px;
+    }
+    
+    .titulo h3{
+        font-size: 18px;
+    }
+
+    .titulo p{
+        font-size: 15px;
+    }
+
+    .enquadro-imagem{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+        height: 1300px ;
+    }
+
+    .enquadro-imagem .imagem-principal{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imagem-principal div{
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .imagem-principal div img{
+        object-position: center 30%;
+    }
+
+    .imagem-principal p{
+        font-size: 18px;
+    }
+
+    .imagem-secundaria {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    .imagem-secundaria div{
+        width: 100%;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .imagem-secundaria div img{
+        object-position: center 30%;
+    }
+
+    .imagem-secundaria div p{
+        font-size: 18px;
+    }
+    
+
+    .enquadro-card{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .enquadro-card .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .enquadro-card .card h5{
+        font-size: 16px;
+    }
+
+    .enquadro-card .card p{
+        font-size: 15px;
+    }
+
+    /* inicio rodape */
+    footer{
+        width: 100%;
+    }
+
+    .rodape{
+        width: 90%;
+    }
+
+
+    .rodape div h3{
+        font-size: 18px;
+    }
+    
+    .rodape div span{
+        display: flex;
+        font-size: 14px;
+    }
+
+    .email::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .localidade::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .telefone::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .facebook::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .instagram::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+    
+    .twiter::before{
+        width: 12px;
+        height: 12px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1100px){
+
+    .formulario .selecao-checkbox .checkbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .checkbox div{
+        margin-bottom: 5px;
+    }
+
+
+    .enquadro-imagem{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+        height: 1300px ;
+    }
+
+    .enquadro-imagem .imagem-principal{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imagem-principal div{
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .imagem-principal div img{
+        object-position: center 25%;
+    }
+
+    .imagem-principal p{
+        font-size: 18px;
+    }
+
+    .imagem-secundaria {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    .imagem-secundaria div{
+        width: 100%;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .imagem-secundaria div img{
+        object-position: center;
+    }
+
+
+    .imagem-secundaria div p{
+        font-size: 18px;
+    }
+
+}
