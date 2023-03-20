@@ -365,7 +365,7 @@ footer{
 }
 
 .email::before{
-    content: '';
+    content: "";
     width: 18px;
     height: 18px;
     margin-right: 5px;
@@ -375,7 +375,7 @@ footer{
 }
 
 .localidade::before{
-    content: '';
+    content: "";
     width: 18px;
     height: 18px;
     margin-right: 5px;
@@ -385,7 +385,7 @@ footer{
 }
 
 .telefone::before{
-    content: '';
+    content: "";
     width: 18px;
     height: 18px;
     margin-right: 5px;
