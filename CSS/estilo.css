@@ -370,7 +370,7 @@ footer{
     height: 18px;
     margin-right: 5px;
     background-size: cover;
-    background-image: url("./imagens/email.png");
+    background-image: url("../imagens/email.png");
     
 }
 
@@ -380,7 +380,7 @@ footer{
     height: 18px;
     margin-right: 5px;
     background-size: cover;
-    background-image: url("./imagens/local.png");
+    background-image: url("../imagens/local.png");
     
 }
 
@@ -390,7 +390,7 @@ footer{
     height: 18px;
     margin-right: 5px;
     background-size: cover;
-    background-image: url("./imagens/telefone.png");
+    background-image: url("../imagens/telefone.png");
     
 }
 
@@ -400,7 +400,7 @@ footer{
     height: 18px;
     margin-right: 5px;
     background-size: cover;
-    background-image: url("./imagens/fb.png");
+    background-image: url("../imagens/fb.png");
     
 }
 
@@ -410,7 +410,7 @@ footer{
     height: 18px;
     margin-right: 5px;
     background-size: cover;
-    background-image: url("./imagens/ig.png");
+    background-image: url("../imagens/ig.png");
     
 }
 
@@ -420,7 +420,7 @@ footer{
     height: 18px;
     margin-right: 5px;
     background-size: cover;
-    background-image: url("./imagens/tt.png");
+    background-image: url("../imagens/tt.png");
     
 }
 
